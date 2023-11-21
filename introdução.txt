@@ -1,0 +1,3 @@
+Sobre git e github, aprendemos a como fazer a configuração no cmd para registro do login global.
+Aprendemos e praticamos alguns comandos para criar arquivos, alterar e excluir. Foi apresentado a clonagem de
+repositórios, formas de subir um repositório e como funcionam as branchs.
