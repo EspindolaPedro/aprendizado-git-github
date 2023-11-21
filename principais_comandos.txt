@@ -1,0 +1,64 @@
+Realizando o primeiro commit:
+
+mkdir criae uma pasta para commit
+cd entre na pasta
+git init para iniciar o git
+git status
+git add arquivo.txt
+git commit -m 'Criação de arquivo apollo11'
+code . Para entrar no vs code 
+git log  Mostra o histórico desses commit
+git log --pretty=oneline (mostra cada commit em uma linha)
+git log --pretty=oneline -1 (mostra uma linha, no caso a última)
+git log --stat
+
+git diff (mostra as alterações anteriores)
+
+ls - lista dos arquivos
+git add .  (inclui pro stage todo os arquivos modificados)
+git commit --amend  (para modificar o texto do commit)
+
+git reset HEAD apollo12.txt  (para deletar modificações)
+git checkout --apollo12.txt  (Para desfazer as modificações deletadas pelo reset)
+
+BRANCHS:
+
+no seu repositório:
+git branch (para visualizar as branchs existentes)
+git branch nome_da_branch (para criar uma branch)
+git checkout nome_da_branch para visualiza-lá
+git branch -d nome_da_branch (para deletar)
+git checkout -b new_branch (para criar uma branch e fazer checkout automático.)
+
+
+O que é merge:
+
+git -b vostok1 (para criar uma branch)
+git checkout -b vostok1 (para acessar a branch)
+touch vostok1.txt (para criar um arquivo na branch)
+git add vostok1.txt (adicionando o arquivo ao stage)
+git commit - m 'Inclusão da vostok1 ao registos'
+git checkout master (para retornar a master)
+git merge vostok1 (para adicionar o arquivo a master)
+
+mkdir (criar pasta)
+cd (visualizar a pasta)
+git init (iniciar o git)
+touch arquivo.txt1 (para adicionar uma info ao arquivo)
+code . (abrir vs code)
+git add . (adicionar  o txt para o arquivo master)
+git commit -m 'nome do commit'
+git checkout -b nome_da_nova_branch
+git add arquivo.txt
+git checkout master (para retornar ao master)
+git merge branch_que_vai_ser_adicion
+
+para subir um repositório no git 
+criamos o README do projeto
+entramos na pasta com cd nome_da_pasta
+git add .
+git commit -m "Inclusão do README"
+git remote add origin https:// ....
+git push origin master
+login...
+senha é um token gerado dentro do github em setting > dev settings > acess personal token
