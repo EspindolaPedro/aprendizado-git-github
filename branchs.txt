@@ -1,0 +1,3 @@
+branchs servem para desenvolvermos features isoladas.
+A  branch é a principal
+É possível misturar os branchs usando o comando merge.
